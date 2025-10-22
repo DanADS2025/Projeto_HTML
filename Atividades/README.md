@@ -9,5 +9,3 @@ Estrutura responsável por interface responsiva, design system e componentes.
   - `/js/` contém scripts (masks.js e main.js)
   - `/imagens/` coloque as imagens usadas
 
-## Observações
-- Faça o push para um repositório público no GitHub (requisito da atividade).
