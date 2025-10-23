@@ -1,0 +1,21 @@
+/* Importa módulos */
+@import "_variables.css";
+@import "_layout.css";
+@import "_components.css";
+@import "_forms.css";
+@import "_utilities.css";
+
+/* Regras finais / overrides do projeto */
+header #branding h1 { font-size: var(--font-size-lg); color:var(--white); margin:0; }
+main h2 { font-size: var(--font-size-xl); margin-bottom: var(--space-8); color:var(--color-secondary); }
+
+/* Breakpoints (5 breakpoints) */
+@media (max-width: 1400px) { /* bp-4 */ }
+@media (max-width: 1200px) { /* bp-3 */ }
+@media (max-width: 1024px) { /* bp-2 */ .container { padding: 0 12px; } }
+@media (max-width: 768px) { /* bp-1 */ .site-grid { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 480px) { /* bp-0 (mobile) */
+  .site-grid { grid-template-columns: repeat(2, 1fr); }
+  main h2 { font-size: var(--font-size-lg); }
+  header #branding h1 { font-size: var(--font-size-md); }
+}
