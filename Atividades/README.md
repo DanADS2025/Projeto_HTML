@@ -1,11 +1,18 @@
-# Projeto ONG Coração Solidário
+# Projeto ONG - Plataforma de Cadastro
 
-Estrutura responsável por interface responsiva, design system e componentes.
+Projeto front-end desenvolvido em HTML5 e CSS3 modularizado para cadastramento de ONGs e gestão de projetos sociais.
 
-## Como usar
-- Abrir `index.html`, `projetos.html` ou `cadastro.html` em navegador.
-- Estrutura de pastas:
-  - `/css/` contém CSS modular
-  - `/js/` contém scripts (masks.js e main.js)
-  - `/imagens/` coloque as imagens usadas
+## 🚀 Tecnologias Utilizadas
+- **HTML5**: Estruturação semântica de formulários e layouts.
+- **CSS3**: Arquitetura modular (`@import`), variáveis CSS e responsividade.
 
+## 📁 Arquitetura do CSS
+- `_variables.css`: Definição de tokens (cores, tipografia e espaçamentos).
+- `_layout.css`: Estrutura de grid e containers.
+- `_components.css`: Estilização de componentes reutilizáveis.
+- `_forms.css`: Estilização e validação visual dos formulários.
+
+## 🔧 Como Executar
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/DanADS2025/Projeto_HTML.git](https://github.com/DanADS2025/Projeto_HTML.git)
